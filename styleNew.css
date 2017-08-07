@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+  background-image: url(b9r5sEL.jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: ariel, sans-serif;
+}
+
+.buttons {
+  display:flex;
+}
+
+.key {
+  height: 9vh;
+  width: 6vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: solid #000 4px;
+  border-radius: 5%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.07s;
+}
+
+kbd {
+  color: #fff;
+  font-size: 3rem;
+}
+
+span {
+  color: #ffc600;
+  font-size: 0.8rem;
+}
+
+.playing {
+  transform: scale(1.2);
+  border: solid #ffc600 4px;
+  box-shadow: 0 0 1rem #ffc600;
+}
